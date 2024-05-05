@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    font-family: monospace;
+}
+
+#corpo{
+    background-color: rgb(165, 103, 85);
+    border: black 1px solid;
+    min-height: 100em;
+    width: 75%;
+    margin: auto;
+    color: rgb(34, 32, 32);
+    padding: 2em;
+}
+
+
+.titulao{
+    font-size: 5em;
+}
+
+.descricao{
+    font-size: 1.5em;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+#ImgPrincipal{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border: black 2px solid;
+}

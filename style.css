@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    font-family: monospace;
+}
+#header{
+    min-height: 3em;
+    background-color: rgb(119, 119, 165);
+    border: black 1px solid;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+#ImgMario{
+    width: 2em;
+}
+
+#corpo{
+    background-color: rgb(165, 103, 85);
+    border: black 1px solid;
+    height: 100em;
+    width: 75%;
+    margin: auto;
+    color: rgb(34, 32, 32);
+    padding: 2em;
+}
+
+.titulao{
+    font-size: 5em;
+}
+
+.descricao{
+    font-size: 1.5em;
+}
+
+#hr{
+    border-color: rgb(34, 32, 32);
+    margin: 8em;
+}
+
+.bloco{
+    height: 20em;
+    width: 85%;
+    background-color: white;
+    margin: auto;
+    border: black 1px solid;
+}
+
+.ImgBloco{
+    height: 90%;
+    float: left;
+    padding: 15px;
+
+}
+
+#footer{
+    height: 3em;
+    background-color: rgb(238, 182, 108);
+    border: black 1px solid;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
