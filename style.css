@@ -25,7 +25,6 @@ a{
 #corpo{
     background-color: rgb(165, 103, 85);
     border: black 1px solid;
-    height: 100em;
     width: 75%;
     margin: auto;
     color: rgb(34, 32, 32);
@@ -48,16 +47,16 @@ a{
 .bloco{
     height: 20em;
     width: 85%;
-    background-color: white;
+    background-color: rgb(233, 178, 165);
     margin: auto;
     border: black 1px solid;
+    margin-bottom: 5em;
 }
 
 .ImgBloco{
     height: 90%;
     float: left;
     padding: 15px;
-
 }
 
 #footer{
@@ -68,4 +67,12 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+#toup{
+    position: fixed;
+    width: 75px;
+    height: auto;
+    bottom: 10px;
+    right: 10px;
 }

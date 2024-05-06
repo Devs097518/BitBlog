@@ -1,13 +1,13 @@
 body{
     margin: 0;
     font-family: monospace;
+    background-color: rgb(224, 196, 188);
 }
 
 #corpo{
     background-color: rgb(165, 103, 85);
     border: black 1px solid;
-    min-height: 100em;
-    width: 75%;
+    width: 55%;
     margin: auto;
     color: rgb(34, 32, 32);
     padding: 2em;
@@ -20,6 +20,7 @@ body{
 
 .descricao{
     font-size: 1.5em;
+    text-align: justify;
 }
 
 a{
@@ -28,9 +29,33 @@ a{
     color: black;
 }
 
+#hr{
+    border-color: rgb(34, 32, 32);
+    margin: 8em;
+}
+
 #ImgPrincipal{
     width: 100%;
     height: auto;
     margin: auto;
     border: black 2px solid;
+}
+
+#puter{
+    float: right;
+    width: 100px;
+    height: auto;
+}
+
+#vapobook{
+    float: right;
+    width: 200px;
+    height: auto;
+}
+
+.books{
+height: 20em;
+width: auto;
+float: left;
+margin: 1em;
 }
