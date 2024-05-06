@@ -1,78 +1,340 @@
-body{
-    margin: 0;
-    font-family: monospace;
-}
-#header{
-    min-height: 3em;
-    background-color: rgb(119, 119, 165);
-    border: black 1px solid;
+@media only screen and (min-width: 7px) {
 
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+
+    body{
+        margin: 0;
+        font-family: monospace;
+    }
+        
+    #header{
+        min-height: 3em;
+        background-color: rgb(119, 119, 165);
+        border: black 1px solid;
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    a{
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+    }
+    
+    #ImgMario{
+        width: 2em;
+    }
+    
+    #corpo{
+        background-color: rgb(165, 103, 85);
+        border: black 1px solid;
+        width: 75%;
+        margin: auto;
+        color: rgb(34, 32, 32);
+        padding: 2em;
+    }
+    
+    .titulao{
+        font-size: 5em;
+    }
+    
+    .descricao{
+        font-size: 1.5em;
+        padding: 5px;
+    }
+    
+    #hr{
+        border-color: rgb(34, 32, 32);
+        margin: 8em;
+    }
+    
+    .bloco{
+        height: auto;
+        width: 95%;
+        background-color: rgb(233, 178, 165);
+        margin: auto;
+        border: black 1px solid;
+        margin-bottom: 5em;
+        overflow: hidden;
+    }
+    
+    .ImgBloco{
+        height: 15em;
+        float: left;
+        padding: 15px;
+    }
+    
+    #footer{
+        height: 3em;
+        background-color: rgb(238, 182, 108);
+        border: black 1px solid;
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    #toup{
+        position: fixed;
+        width: 75px;
+        height: auto;
+        bottom: 10px;
+        right: 10px;
+    }
+      
+    
+    #header{
+        min-height: 3em;
+        background-color: rgb(119, 119, 165);
+        border: black 1px solid;
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    a{
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+    }
+    
+    #ImgMario{
+        width: 2em;
+    }
+    
+    #corpo{
+        background-color: rgb(165, 103, 85);
+        border: black 1px solid;
+        width: 75%;
+        margin: auto;
+        color: rgb(34, 32, 32);
+        padding: 2em;
+    }
+    
+    .titulao{
+        font-size: 5em;
+    }
+    
+    .descricao{
+        font-size: 15px;
+        padding: 15px;
+    }
+    
+    #hr{
+        border-color: rgb(34, 32, 32);
+        margin: 8em;
+    }
+    
+    .bloco{
+        height: auto;
+        width: 85%;
+        background-color: rgb(233, 178, 165);
+        margin: auto;
+        border: black 1px solid;
+        margin-bottom: 5em;
+        overflow: hidden;
+    }
+    
+    .ImgBloco{
+        height: 15em;
+        float: left;
+        padding: 15px;
+    }
+    
+    #footer{
+        height: 3em;
+        background-color: rgb(238, 182, 108);
+        border: black 1px solid;
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    #toup{
+        position: fixed;
+        width: 75px;
+        height: auto;
+        bottom: 10px;
+        right: 10px;
+    }
 }
 
-a{
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 700px) {
+
+
+    body{
+        margin: 0;
+        font-family: monospace;
+    }
+        
+    #header{
+        min-height: 3em;
+        background-color: rgb(119, 119, 165);
+        border: black 1px solid;
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    a{
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+    }
+    
+    #ImgMario{
+        width: 2em;
+    }
+    
+    #corpo{
+        background-color: rgb(165, 103, 85);
+        border: black 1px solid;
+        width: 75%;
+        margin: auto;
+        color: rgb(34, 32, 32);
+        padding: 2em;
+    }
+    
+    .titulao{
+        font-size: 5em;
+    }
+    
+    .descricao{
+        font-size: 1.5em;
+        padding: 15px;
+    }
+    
+    #hr{
+        border-color: rgb(34, 32, 32);
+        margin: 8em;
+    }
+    
+    .bloco{
+        height: auto;
+        width: 85%;
+        background-color: rgb(233, 178, 165);
+        margin: auto;
+        border: black 1px solid;
+        margin-bottom: 5em;
+        overflow: hidden;
+    }
+    
+    .ImgBloco{
+        height: 15em;
+        float: left;
+        padding: 15px;
+    }
+    
+    #footer{
+        height: 3em;
+        background-color: rgb(238, 182, 108);
+        border: black 1px solid;
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    #toup{
+        position: fixed;
+        width: 75px;
+        height: auto;
+        bottom: 10px;
+        right: 10px;
+    }
+      
+    
+    #header{
+        min-height: 3em;
+        background-color: rgb(119, 119, 165);
+        border: black 1px solid;
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    a{
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+    }
+    
+    #ImgMario{
+        width: 2em;
+    }
+    
+    #corpo{
+        background-color: rgb(165, 103, 85);
+        border: black 1px solid;
+        width: 75%;
+        margin: auto;
+        color: rgb(34, 32, 32);
+        padding: 2em;
+    }
+    
+    .titulao{
+        font-size: 5em;
+    }
+    
+    .descricao{
+        font-size: 1.5em;
+        padding: 15px;
+    }
+    
+    #hr{
+        border-color: rgb(34, 32, 32);
+        margin: 8em;
+    }
+    
+    .bloco{
+        height: auto;
+        width: 85%;
+        background-color: rgb(233, 178, 165);
+        margin: auto;
+        border: black 1px solid;
+        margin-bottom: 5em;
+        overflow: hidden;
+    }
+    
+    .ImgBloco{
+        height: 15em;
+        float: left;
+        padding: 15px;
+    }
+    
+    #footer{
+        height: 3em;
+        background-color: rgb(238, 182, 108);
+        border: black 1px solid;
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    #toup{
+        position: fixed;
+        width: 75px;
+        height: auto;
+        bottom: 10px;
+        right: 10px;
+    }
 }
 
-#ImgMario{
-    width: 2em;
-}
-
-#corpo{
-    background-color: rgb(165, 103, 85);
-    border: black 1px solid;
-    width: 75%;
-    margin: auto;
-    color: rgb(34, 32, 32);
-    padding: 2em;
-}
-
-.titulao{
-    font-size: 5em;
-}
-
-.descricao{
-    font-size: 1.5em;
-}
-
-#hr{
-    border-color: rgb(34, 32, 32);
-    margin: 8em;
-}
-
-.bloco{
-    height: 20em;
-    width: 85%;
-    background-color: rgb(233, 178, 165);
-    margin: auto;
-    border: black 1px solid;
-    margin-bottom: 5em;
-}
-
-.ImgBloco{
-    height: 90%;
-    float: left;
-    padding: 15px;
-}
-
-#footer{
-    height: 3em;
-    background-color: rgb(238, 182, 108);
-    border: black 1px solid;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-#toup{
-    position: fixed;
-    width: 75px;
-    height: auto;
-    bottom: 10px;
-    right: 10px;
-}
