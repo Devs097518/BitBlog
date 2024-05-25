@@ -49,6 +49,12 @@
         width: 100px;
         height: auto;
     }
+
+    #deadtree{
+        float: right;
+        width: 100px;
+        height: auto;
+    }
     
     #vapobook{
         float: right;
@@ -116,6 +122,12 @@
     #puter{
         float: right;
         width: 100px;
+        height: auto;
+    }
+
+    #deadtree{
+        float: right;
+        width: 200px;
         height: auto;
     }
     
