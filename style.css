@@ -15,6 +15,29 @@
         align-items: center;
         justify-content: space-around;
     }
+
+    #choice{
+        padding: 1em;
+        background-color: rgb(165, 103, 85);
+        width: 20em;
+        border: black 1px solid;
+        margin :auto ;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #bitb{
+        background-color: rgb(240, 210, 190);
+        padding: 1em;
+        border: black 1px solid;
+    }
+
+    #studyb{
+        background-color: rgb(209, 210, 240);
+        border: black 1px solid;
+        padding: 1em;
+    }
     
     a{
         text-decoration: none;
@@ -190,6 +213,29 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
+    }
+
+    #choice{
+        padding: 1em;
+        background-color: rgb(163, 106, 91);
+        width: 20em;
+        border: black 1px solid;
+        margin :auto ;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #bitb{
+        background-color: rgb(240, 210, 190);
+        padding: 0.5em;
+        border: black 1px solid;
+    }
+
+    #studyb{
+        background-color: rgb(209, 210, 240);
+        border: black 1px solid;
+        padding: 0.5em;
     }
     
     a{
