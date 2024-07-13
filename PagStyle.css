@@ -43,6 +43,12 @@
         margin: auto;
         border: black 2px solid;
     }
+
+    video{
+        border: black 3px solid ;
+        width: auto;
+        height: 173px
+    }
     
     #puter{
         float: right;
@@ -95,6 +101,12 @@
         margin: auto;
         color: rgb(34, 32, 32);
         padding: 2em;
+    }
+
+    video{
+        border: black 5px solid ;
+        width: auto;
+        height: 200px
     }
     
     
