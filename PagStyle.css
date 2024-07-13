@@ -49,6 +49,11 @@
         width: auto;
         height: 173px
     }
+
+    #camera{
+        width: auto;
+        height: 73px
+    }
     
     #puter{
         float: right;
@@ -107,6 +112,11 @@
         border: black 5px solid ;
         width: auto;
         height: 200px
+    }
+
+    #camera{
+        width: auto;
+        height: 150px
     }
     
     
